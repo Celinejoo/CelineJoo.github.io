@@ -111,7 +111,7 @@ body{
     top:50%;
     transform: translate(-50%, -50%);
     color:#fff;
-    font-size: 11.96vw;
+    font-size: 7.5vw;
     font-weight: 700;
     letter-spacing: -0.4px;
     z-index: 10;
@@ -172,6 +172,9 @@ body{
     margin: 0 auto 7.42vw;
 }
 
+.buttonArea a {
+    display: block;
+}
 
 .btnActive {
     width: 100%;
@@ -190,42 +193,57 @@ body{
 /* 신청페이지 */
 
 .content.registerContent .titleArea img{
-    margin-bottom: 20px;
+    margin-bottom: 4.78vw;
 }
 
 
 .registerContent .buttonArea {
     display: flex;
     align-items: center;
-    width: calc(100% - 48px);
+    width: calc(100% - 9.09vw);
 }
 
 
 .buttonArea .btnHome{
-    background:url('../images/icon/icHomebtn.svg') no-repeat center center;
+    background:url('../images/icon/icHomebtn.svg') no-repeat center center / 45%;
     background-color: #fff;
-    width: 60px;
-    height: 60px;
+    width: 14.35vw;
+    height: 14.35vw;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 2.39vw;
     font-size: 0;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.12);
 
 }
 
-.registerContent .buttonArea .btnActive{
-    width: calc(100% - 70px);
+.registerContent .buttonArea .find{
+    width: calc(100vw - 16.75vw);
+
+}
+
+.registerContent .buttonArea .find button{
+    width: 100%;
 }
 
 .content.registerContent  .label{
-    margin-bottom: 15px;
+    margin-bottom: 3.59vw;
     font-weight: 700;
+    color:#fff;
 
 }
+#slider 
+{
+    width: 80%;
+    margin-left: 1em;
+}
 
+#min, #max {
+    width: 50px;
+    text-align: center;
+}
 .content.registerContent .contentArea{
-    width: calc(100% - 38px);
-    margin: 80px auto 0;
+    width: calc(100% - 9.09vw);
+    margin: 19.14vw auto 0;
 }
 
 
@@ -236,7 +254,7 @@ body{
 
 .content.registerContent .labelArea .min{
     color:#FFA928;
-    font-size: 13px;
+    font-size: 3.11vw;
     font-weight: 700;
 }
 
@@ -249,13 +267,14 @@ body{
 .moneyList .money{
     display: inline-block;
     background-color: #202020;
-    padding: 10px 14px 10px 14px;
+    padding: 2.98vw 3.35vw;
     border:1px solid #3E3E3E; 
-    border-radius: 30px;
-    margin-right: 10px;
-    font-size: 14px;
+    border-radius: 7.18vw;
+    margin-right: 2.39vw;
+    font-size: 3.35vw;
     font-weight: 700; 
     cursor: pointer;
+    color:#fff;
 }
 
 .moneyList .money:last-of-type{
@@ -269,6 +288,9 @@ body{
 .moneyList .money img{
     display: inline-block;
     margin-right: 5px;
+    width: 3.59vw;
+    height: 3.83vw;
+
 }
 
 .selectWrap{
@@ -282,16 +304,16 @@ body{
 }
 
 .foodList .food{
-    width: 70px;
-    height: 96px;
+    width: 16.75vw;
+    height: 22.97vw;
     border-radius: 10px;
     display: inline-block;
-    font-size: 12px;
+    font-size: 2.87vw;
     font-weight: 700;
     text-align: center;
     border: 1px solid #3E3E3E;
     background-color:#202020 ;
-    margin-right: 1px;
+    margin-right: 0.24vw;
     position: relative;
 
 }
@@ -313,31 +335,40 @@ body{
     
 }
 .foodList .food>div img{
+    width: 11.96vw;
     display: inline-block;
     
 }
 .foodList .food>div span{
     display: inline-block;
-    margin-top:10px;
+    margin-top:2.39vw;
+    color:#fff;
+}
+.foodList .food.active>div span{
+    color:#303030;
 }
 
 .selectWrap_v3{
-    margin-bottom: 65px;
+    margin-bottom: 15.55vw;
 }
 
 /* 상세페이지 */
 .detailContent .buttonArea{
     display: flex;
+    margin: 0 auto;
+    padding-bottom: 7.42vw;
 }
 
 .btnRetry{
     border: 1px solid #FFA928;
     text-align: center;
-    border-radius: 53px;
-    width:calc(100% - 75%);
-    height: 60px;
+    border-radius: 12.68vw;
+    width:19.14vw;
+    height: 14.35vw;
     color:#FFA928;
-    margin-right: 10px;
+    margin-right: 2.39vw;
+    font-size: 3.83vw;
+    background-color: #fff;
 }
 
 
@@ -346,11 +377,6 @@ body{
     background-color: #fff;;
 }
 
-.detailContent .buttonArea .btnActive{
-    width: calc(100% - 179px);
-    
-
-}
 .detailContent .imgSlide img{
     width: 100%;
 }
@@ -365,24 +391,24 @@ body{
 }
 
 .detailContent .slick-dots li {
-    width: 7px;
-    height: 7px;
+    width: 1.67vw;
+    height: 1.677vw;
     border-radius: 100%;
     background-color: #7b7b7b;
 }
 .detailContent .slick-dots li.slick-active{
-    width: 17px;
-    border-radius: 10px;
+    width: 4.07vw;
+    border-radius: 2.39vw;
     background: #fff;;
 }
 
 .detailContent .slick-dots li button{
-    width: 7px;
-    height: 7px;
+    width: 1.67vw;
+    height: 1.677vw;
 }
 
 .detailContent .slick-dots li.slick-active button{
-    width: 17px;
+    width: 4.07vw;
 }
 
 .detailContent .slick-dots li button:before{
@@ -396,17 +422,26 @@ body{
 }
 
 .detailContent .contentArea{
-    width: calc(100% - 38px);
+    width: calc(100% - 9.09vw);
     margin: 0 auto;
     background-color: #fff;
     color:#6b6b6b;
-    font-size: 14px;
+    font-size: 3.35vw;
 }
 
-.contentArea > div{
+.detailContent .contentArea > div{
     border-bottom: 1px solid #e6e6e6;
-    padding: 22px 0 ;
+    padding: 5.26vw 0 ;
 }
+
+.detailContent .contentArea>div.map {
+    border: none;
+    padding-top:0;
+}
+.detailContent .contentArea > div.marketInfo_v3{
+    border: none;
+}
+
 .contentArea .nameArea {
     display: flex;
     justify-content: space-between;
@@ -415,32 +450,36 @@ body{
 .contentArea .nameArea .nameInfo{
     display:flex;
     align-items: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 2.39vw;
+}
+
+.contentArea .shareIncon img {
+    width: 4.78vw;
 }
 .nameArea .name {
-    font-size: 22px;
-    margin-right:5px;
+    font-size: 5.26vw;
+    margin-right: 1.20vw;
     color:#303030;
     font-weight: 700;
 }
 .contentArea .lable{
-    margin-bottom: 10px;
-    font-size: 16px;
+    margin-bottom: 2.39vw;
+    font-size: 3.;
     font-weight: 700;
     color:#303030;
 }
 .marketInfo .infoList li{
     display: flex;
     align-items: center;
-    margin-bottom: 7px;
+    margin-bottom: 1.67vw;
 }
 .marketInfo .infoList li::before {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 6px;
+    width: 4.78vw;
+    height: 4.78vw;
+    margin-right: 1.44vw;
     content: '';
-    background: url("../images/icon/icLocation.svg") no-repeat center center ;
+    background: url("../images/icon/icLocation.svg") no-repeat center center  / cover;
 }
 
 .marketInfo .infoList li.time::before{
@@ -450,7 +489,7 @@ body{
 
 .marketInfo .hour {
     font-family: "Lato";
-    margin-right: 4px;
+    margin-right: 0.96vw;
 }
 
 .marketInfo .homepage {
@@ -480,12 +519,14 @@ body{
 
 .marketInfo .copyArea {
     cursor: pointer;
-    margin-left: 7.5px;
+    margin-left: 1.79vw;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-
+.marketInfo .copyArea img {
+    width: 4.31vw;
+}
 .marketInfo .copyText {
     color:#FFA928;
 
@@ -496,64 +537,55 @@ body{
     color:#0075ff;
 
 }
-.marketInfo_v2 dl{    
-    margin-bottom: 6px;
-    letter-spacing: -0.3%;
+.marketInfo_v2 div.menuList{    
+    margin-bottom: 1.44vw;
+    letter-spacing: - 0.3%;
     position: relative;
+    background-color: #fff;
 } 
 
-.marketInfo_v2 dt::before {
-    display: inline-block;
-    content: "";
+.marketInfo_v2 .menuList .menu::after {
+    content:'';
+    display: block;
     width: 100%;
-    height: 1px;
-    background-color: pink;
-    border-top:1px solid #e6e6e6;    
-
+    border-top:1px solid #e6e6e6;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
 }
 
-
-.marketInfo_v2 dd.price {
+.marketInfo_v2 .price {
     color:#FFA928;
     text-align: right;
-    float: right;
+   
     background-color: #fff;
 }
 
-.marketInfo_v2 dt span.menuReco {
+.marketInfo_v2 .menuList span.menuReco {
     color:#FFA928;
     font-weight: 500;
     display: inline-block;
-    margin-left: 6px;
+    margin-left: 1.44vw;
     background-color: #fff;
 }
 
-.clearfix:before, .clearfix:after {
 
-display: block;
-content: '';
-line-height: 0;
-}
 
 .clearfix:after {
-clear:both;
+    clear:both;
 }
 
 
 .btnMore{
     width: 100%;
-    height: 50px;
-    margin-top:22px;
+    height: 11.96vw;
+    margin-top:3.26vw;
     border:1px solid #b4b4b4;
-    border-radius: 10px;
+    border-radius: 2.39vw;
     text-align: center;
-    font-size: 14px;
+    font-size: 3.35vw;
     background-color: #fff;
     color:#6b6b6b;
-}
-
-.marketInfo_v2 dl dd {
-    color:#FFA928; 
 }
 
 .marketInfo_v3 ul {
@@ -570,13 +602,20 @@ clear:both;
 
 .marketInfo_v3 .photo > div {
     position: relative;
+    width: 33.01vw;
+    height: 44.02vw;
+    border-radius: 2.39vw;
+}
+
+.marketInfo_v3 .photo > div img {
+    width: 100%;
 }
 
 .marketInfo_v3 .hash{
     position: absolute;
-    bottom: 13px;
-    left: 12px;
-    font-size: 16px;
+    bottom: 2.87vw;
+    left: 2.87vw;
+    font-size: 3.83vw;
     font-weight: 500;
     color:#fff;
 

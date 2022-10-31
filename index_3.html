@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="js/lib/slick/slick-theme.css">
     <link rel="stylesheet" href="js/lib/slick/slick.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/lib/jquery-3.6.1.min.js"></script>
     <script src="js/lib/slick/slick.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js"></>
     <title>상세페이지</title>
 </head>
 <body>
@@ -63,36 +63,35 @@
                     <div class="marketInfo marketInfo_v2">
                         <p class="lable">매뉴정보</p>
                         <div>
-                            <dl class="recommend clearfix">
-                                <dt>
-                                    <span class="menu"> 짜장면</span><span class="menuReco">추천</span>
-                                </dt>
-                               
-                                <dd class="price">6,000원</dd>
-                            </dl>
-                            <dl>
-                                <dt ><span class="menu">짜장면</span></dt>
-                               
-                                <dd class="price">6,000원</dd>
-                            </dl>
-                            <dl>
-                                <dt><span clsss="menu">짜장면</span></dt>
+                            <div class="menuList">
+                                <p class="price">6,000원</p>
+                                <div class="menu">
+                                    <div class="menuInner">
+                                        <div>
+                                            <span>짜장면</span><span class="menuReco">추천</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
                                 
-                                <dd class="price">6,000원</dd>
-                            </dl>
-                            <dl>
-                                <dt ><span class="menu">짜장면</span></dt>
+                            </div>
+                            <div class="menuList">
+                                <p class="price">6,000원</p>
+                                <p class="menu">짜장면</p>
+                               
+                            </div>
+                            <div class="menuList">
+                                <p class="price">6,000원</p>
                                 
-                                <dd class="price">6,000원</dd>
-                            </dl>
-                            <dl>
-                                <dt ><span class="menu">짜장면</span></dt>
-                              
-                                <dd class="price">6,000원</dd>
-                            </dl>
-     
-    
-    
+                                <p class="menu">짜장면</p>
+                                
+                            </div>
+                            <div class="menuList">
+                                <p class="price">6,000원</p>
+                                <p class="menu">짜장면</p>
+                                
+                            </div>
+                
                         </div>
                         <button class="btnMore">더보기+</button>
                     </div>
@@ -113,7 +112,7 @@
                             </li>
                             <li class="photo">
                                 <div>
-                                    <img src="images/img/market_03.png" alt="">
+                                    <img src="images/img/market_03_1.png" alt="">
                                     <p class="hash">가게외부</p>
                                 </div>
                             </li>
@@ -126,14 +125,15 @@
                         </ul>
                      
                     </div>
-                    <div class="marketInfo">
+                    <div class="marketInfo map">
                         <p class="lable">위치 안내</p>
                         <p>지도영역</p>
                     </div>
                 </div>
                 <div class="buttonArea">
-                    <button class="btnHome">홈</button>
-                    <button class="btnRetry">다시찾기</button>
+                    
+                    <a href="index.html"><button class="btnHome">홈</button></a>
+                    <a href="index_2.html"><button class="btnRetry">다시찾기</button></a>
                     <button class="btnActive">길찾기</button>
                 </div>
             </div>
