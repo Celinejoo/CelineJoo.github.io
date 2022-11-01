@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/lib/jquery-3.6.1.min.js"></script>
     <script src="js/lib/slick/slick.min.js"></script>
-
     <script src="js/lib/jquery-ui-1.13.2.custom/jquery-ui.js"></script>
     <script src="js/script.js"></script>
     <title>신청페이지</title>
@@ -32,9 +31,16 @@
                             <p class="label">반경 (도보 기준)</p>
                             <p class="min"> 약 5분(200m)</p>
                         </div>
-                        <div id="slider"></div>
-                        <div id="min"></div>
-                        <div id="max"></div>
+                        
+                        <div id="range-slider"></div>
+                        <ul class="minList">
+                            <li>5분</li>
+                            <li>10분</li>
+                            <li class="center">15분</li>
+                            <li class="right">20분</li>
+                            <li class="right">25분</li>
+                            <li class="right">30분</li>
+                        </ul>
                     </div>
                     <div class="selectWrap  selectWrap_v2">
                             <p class="label">가격 (1인)</p>
