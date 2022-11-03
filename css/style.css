@@ -61,18 +61,18 @@ body{
 
 .slideArea .slick-list{
     box-sizing: border-box;
-    width: 90vw;
-    margin: 0 auto;
+    width: 100vw;
+    margin : 0 -7vw;
 }
 
 .slideArea .slick-list .slide-item {
     position: relative;
-    transform: scale(0.88);
+    transform: scale(0.8);
     transition: transform 0.5s linear;
     
 }
 
-.slideArea .slick-list .slick-center.slide-item{
+.slideArea .slick-list .slick-active.slide-item{
     transform: scale(1);
     transition: transform .5s linear;
 }
@@ -90,7 +90,7 @@ body{
     
 }
 
-.slideArea .slick-center.slide-item .card::after {
+.slideArea .slick-active.slide-item .card::after {
     transition: background-color 0.8s;
 }
 
@@ -481,7 +481,9 @@ span.ui-slider-handle.ui-corner-all.ui-state-default{
 .detailContent .contentArea > div.marketInfo_v3{
     border: none;
 }
-
+.detailContent .map .mapImg{
+    width: 90.91vw;
+}
 .contentArea .nameArea {
     display: flex;
     justify-content: space-between;
